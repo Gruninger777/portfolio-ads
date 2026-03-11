@@ -1,20 +1,25 @@
 # API de Clientes em Go
 
-## Descrição
+API REST simples para cadastro e listagem de clientes, com armazenamento em memória e comunicação em JSON.
 
-API REST simples para cadastro e listagem de clientes, com dados mantidos em memória e comunicação em JSON.
+## Objetivo
 
-## Objetivo do projeto
+Praticar fundamentos de backend com Go, criação de rotas HTTP, manipulação de requisições e respostas JSON e estrutura inicial de uma API.
 
-Praticar fundamentos de backend com Go, criação de rotas HTTP, serialização de JSON e organização inicial de uma API.
-
-## Tecnologias utilizadas
+## Tecnologias
 
 - Go
-- net/http
-- encoding/json
+- `net/http`
+- `encoding/json`
 
-## Estrutura de arquivos
+## Funcionalidades
+
+- listar clientes
+- cadastrar novos clientes
+- responder dados em formato JSON
+- manter dados temporariamente em memória
+
+## Estrutura do projeto
 
 ```text
 api-clientes-golang/
@@ -26,18 +31,11 @@ api-clientes-golang/
 
 ## Como executar
 
-1. Acesse a pasta do projeto.
-2. Execute a aplicação:
-
 ```bash
 go run src/main.go
 ```
 
-3. A API ficará disponível em:
-
-```text
-http://localhost:8080
-```
+API disponível em `http://localhost:8080`.
 
 ## Exemplo de uso
 
@@ -47,7 +45,7 @@ Listar clientes:
 curl http://localhost:8080/clientes
 ```
 
-Adicionar cliente:
+Cadastrar cliente:
 
 ```bash
 curl -X POST http://localhost:8080/clientes ^
@@ -55,16 +53,18 @@ curl -X POST http://localhost:8080/clientes ^
   -d "{\"nome\":\"Maria\",\"email\":\"maria@email.com\"}"
 ```
 
-## Aprendizados desenvolvidos
+## O que este projeto demonstra
 
-- Criação de rotas com `net/http`
-- Leitura e escrita de JSON
-- Estruturação básica de API REST
-- Armazenamento temporário em memória
+- construção de rotas com `net/http`
+- serialização e leitura de JSON
+- organização básica de uma API REST
+- desenvolvimento backend sem frameworks
 
-## Melhorias futuras
+## Próximos passos
 
-- Adicionar busca por ID
-- Implementar atualização e remoção
-- Validar formato de e-mail
-- Separar rotas e serviços em arquivos diferentes
+- adicionar busca por ID
+- implementar atualização e remoção
+- validar melhor os dados de entrada
+- separar responsabilidades em mais arquivos
+
+[Voltar ao README principal](../../README.md)

@@ -1,22 +1,28 @@
 # Sistema de Biblioteca em Java
 
-## Descrição
+Aplicação de console para cadastro, listagem e remoção de livros, utilizando armazenamento em memória.
 
-Aplicação de console para cadastro, listagem e remoção de livros utilizando `ArrayList` como estrutura de armazenamento em memória.
+## Objetivo
 
-## Objetivo do projeto
+Praticar fundamentos de Java com classes simples, organização básica do projeto e criação de menus de interação no terminal.
 
-Praticar fundamentos de Java com classes simples, organização em camadas básicas e criação de menus de interação no terminal.
-
-## Tecnologias utilizadas
+## Tecnologias
 
 - Java
 
-## Estrutura de arquivos
+## Funcionalidades
+
+- cadastrar livros
+- listar livros cadastrados
+- remover livros
+- interagir por menu no terminal
+
+## Estrutura do projeto
 
 ```text
 sistema-biblioteca-java/
 ├── README.md
+├── out/
 └── src/
     └── biblioteca/
         ├── Livro.java
@@ -26,14 +32,13 @@ sistema-biblioteca-java/
 
 ## Como executar
 
-1. Acesse a pasta do projeto.
-2. Compile os arquivos Java:
+Compile os arquivos Java:
 
 ```bash
 javac -d out src/biblioteca/*.java
 ```
 
-3. Execute a aplicação:
+Execute a aplicação:
 
 ```bash
 java -cp out biblioteca.Main
@@ -51,16 +56,18 @@ Digite o título do livro: Clean Code
 Livro cadastrado com sucesso.
 ```
 
-## Aprendizados desenvolvidos
+## O que este projeto demonstra
 
-- Uso de `ArrayList` em aplicações simples
-- Criação de classes de modelo e serviço
-- Leitura de dados pelo console
-- Organização inicial de um projeto Java
+- uso de `ArrayList` em uma aplicação simples
+- separação entre classes de modelo e serviço
+- leitura de dados pelo console
+- estrutura inicial de um projeto Java
 
-## Melhorias futuras
+## Próximos passos
 
-- Adicionar autor e ano de publicação
-- Implementar busca por título
-- Persistir os dados em arquivo
-- Incluir testes unitários
+- adicionar autor e ano de publicação
+- implementar busca por título
+- persistir dados em arquivo
+- incluir testes unitários
+
+[Voltar ao README principal](../../README.md)

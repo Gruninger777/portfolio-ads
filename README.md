@@ -1,56 +1,72 @@
-# Portfólio de Projetos - Análise e Desenvolvimento de Sistemas
+# Portfólio de Projetos - ADS
 
-Este repositório reúne projetos acadêmicos e práticos desenvolvidos com foco na construção de um portfólio profissional para oportunidades de estágio em desenvolvimento de software, backend e dados.
+Repositório com projetos acadêmicos e práticos desenvolvidos durante minha formação em Análise e Desenvolvimento de Sistemas. A proposta deste portfólio é apresentar evolução técnica, organização de código e aplicação de fundamentos em diferentes linguagens.
 
-Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse em consolidar fundamentos de programação, organização de código, resolução de problemas e evolução técnica por meio de projetos simples, funcionais e bem estruturados.
+## Visão geral
+
+Aqui reuni projetos simples e objetivos com foco em:
+
+- lógica de programação
+- backend e APIs
+- análise de dados
+- organização de aplicações de console
+- estruturação de interfaces web
 
 ## Objetivo profissional
 
-Busco oportunidade de estágio em desenvolvimento de software, com maior interesse em backend, APIs, lógica de programação e análise de dados.
+Busco oportunidade de estágio em desenvolvimento de software, com interesse principal em backend, APIs, lógica de programação e dados. Este portfólio foi organizado para demonstrar base técnica, clareza na implementação e comprometimento com aprendizado contínuo.
 
 ## Tecnologias
 
+### Linguagens
+
+- C
 - C#
+- Go
 - Java
 - Python
-- Go
-- C
 - HTML
 - CSS
 - SQL
 
-## Projetos do portfólio
+### Conceitos e ferramentas praticados
 
-### 1. Sistema de Cadastro em C#
-Aplicação de console para cadastro, listagem e remoção de usuários em memória. Demonstra organização de fluxo, uso de listas, separação de responsabilidades e interação com o usuário no terminal.
+- aplicações de console
+- APIs REST
+- manipulação de arquivos CSV
+- estruturas de dados básicas
+- organização de projetos por camadas simples
+- versionamento com Git e publicação no GitHub
 
-Pasta: `projects/sistema-cadastro-csharp`
+## Projetos
 
-### 2. Sistema de Biblioteca em Java
-Aplicação de console para gerenciar livros com cadastro, listagem e remoção. Demonstra uso de `ArrayList`, modelagem simples com classes e construção de menu interativo.
+| Projeto | Tecnologias | Descrição | Link |
+| --- | --- | --- | --- |
+| Sistema de Cadastro | C#, .NET | Aplicação de console para cadastro, listagem e remoção de usuários em memória. | [Abrir projeto](./projects/sistema-cadastro-csharp/README.md) |
+| Sistema de Biblioteca | Java | Aplicação de console para gerenciar livros com cadastro, listagem e remoção. | [Abrir projeto](./projects/sistema-biblioteca-java/README.md) |
+| Análise de Dados | Python, pandas | Projeto introdutório com leitura de CSV, estatísticas simples e agrupamentos. | [Abrir projeto](./projects/analise-dados-python/README.md) |
+| API de Clientes | Go | API REST simples com rotas de listagem e cadastro de clientes em memória. | [Abrir projeto](./projects/api-clientes-golang/README.md) |
+| Portfólio Estático | HTML, CSS | Página web responsiva com apresentação profissional e resumo dos projetos. | [Abrir projeto](./projects/portfolio-html-css/README.md) |
+| Algoritmos e Estruturas | C | Exercícios de busca, ordenação e manipulação de arrays para reforço de fundamentos. | [Abrir projeto](./projects/algoritmos-estruturas-c/README.md) |
 
-Pasta: `projects/sistema-biblioteca-java`
+## Aprendizado contínuo
 
-### 3. Análise de Dados em Python
-Projeto introdutório de análise de dados com `pandas`, leitura de CSV, cálculo de estatísticas e agrupamentos. Demonstra base analítica e manipulação estruturada de dados.
+Este repositório continua em evolução. Os próximos passos de estudo incluem:
 
-Pasta: `projects/analise-dados-python`
+- melhorar validações e organização interna dos projetos
+- adicionar persistência de dados em aplicações de console
+- aprofundar testes automatizados
+- evoluir projetos backend com mais rotas e melhor estrutura
+- expandir projetos de dados com visualizações e análises mais completas
 
-### 4. API de Clientes em Go
-API REST simples construída com `net/http`, com rotas para listagem e cadastro de clientes em memória. Demonstra conceitos iniciais de backend, JSON e estrutura de APIs.
+## Organização do repositório
 
-Pasta: `projects/api-clientes-golang`
-
-### 5. Portfólio Estático em HTML e CSS
-Página estática responsiva com apresentação profissional, tecnologias, projetos e objetivo de carreira. Demonstra cuidado com interface, estrutura semântica e consistência visual.
-
-Pasta: `projects/portfolio-html-css`
-
-### 6. Algoritmos e Estruturas em C
-Coleção de exercícios didáticos com busca linear, ordenação simples e manipulação de arrays. Demonstra raciocínio lógico, fundamentos de algoritmos e clareza de implementação.
-
-Pasta: `projects/algoritmos-estruturas-c`
-
-## Evolução e aprendizado contínuo
-
-Este portfólio foi organizado para evidenciar disciplina de estudo, clareza na construção de soluções e interesse em evolução constante. A proposta é expandir gradualmente os projetos, aprofundando boas práticas, testes, persistência de dados e integração entre tecnologias.
+```text
+projects/
+├── algoritmos-estruturas-c
+├── analise-dados-python
+├── api-clientes-golang
+├── portfolio-html-css
+├── sistema-biblioteca-java
+└── sistema-cadastro-csharp
+```

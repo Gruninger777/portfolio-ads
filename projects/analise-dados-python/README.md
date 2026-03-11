@@ -1,19 +1,24 @@
 # Análise de Dados em Python
 
-## Descrição
+Projeto introdutório de análise de dados com leitura de CSV, estatísticas simples e agrupamentos utilizando `pandas`.
 
-Projeto introdutório de análise de dados com leitura de CSV, agrupamento de informações e cálculo de estatísticas simples utilizando `pandas`.
-
-## Objetivo do projeto
+## Objetivo
 
 Praticar manipulação de dados tabulares, leitura de arquivos, agrupamento por categorias e interpretação inicial de métricas.
 
-## Tecnologias utilizadas
+## Tecnologias
 
 - Python
 - pandas
 
-## Estrutura de arquivos
+## Funcionalidades
+
+- leitura de arquivo CSV
+- cálculo de estatísticas básicas
+- agrupamento de informações por categoria
+- exibição de resultados no terminal
+
+## Estrutura do projeto
 
 ```text
 analise-dados-python/
@@ -26,20 +31,19 @@ analise-dados-python/
 
 ## Como executar
 
-1. Acesse a pasta do projeto.
-2. Instale a dependência:
+1. Instale a dependência:
 
 ```bash
 pip install pandas
 ```
 
-3. Execute o script principal:
+2. Execute o script:
 
 ```bash
 python src/main.py
 ```
 
-## Exemplo de uso
+## Exemplo de saída
 
 ```text
 === Visão geral dos dados ===
@@ -53,16 +57,18 @@ Dados      3
 Frontend   2
 ```
 
-## Aprendizados desenvolvidos
+## O que este projeto demonstra
 
-- Leitura de arquivos CSV com `pandas`
-- Cálculo de média e contagem
-- Agrupamento de dados por categoria
-- Organização de um pequeno projeto analítico
+- leitura e tratamento inicial de dados com `pandas`
+- cálculo de média e contagem
+- agrupamento por categoria
+- organização de um projeto analítico simples
 
-## Melhorias futuras
+## Próximos passos
 
-- Criar gráficos com `matplotlib` ou `seaborn`
-- Adicionar filtros por período
-- Exportar relatórios
-- Incluir novos datasets para comparação
+- criar gráficos com bibliotecas de visualização
+- adicionar filtros por período
+- exportar relatórios
+- incluir novos datasets para comparação
+
+[Voltar ao README principal](../../README.md)

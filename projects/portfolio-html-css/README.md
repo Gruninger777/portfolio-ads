@@ -1,19 +1,24 @@
 # Portfólio Estático em HTML e CSS
 
-## Descrição
+Página web estática com apresentação profissional, tecnologias estudadas, resumo dos projetos e objetivo de carreira.
 
-Página estática de apresentação profissional com informações pessoais, tecnologias, projetos e objetivo de carreira.
+## Objetivo
 
-## Objetivo do projeto
+Praticar estrutura semântica com HTML, estilização com CSS, responsividade e organização visual para apresentação de portfólio.
 
-Praticar estruturação semântica com HTML, estilização com CSS, responsividade e construção de uma interface limpa para apresentação de portfólio.
-
-## Tecnologias utilizadas
+## Tecnologias
 
 - HTML
 - CSS
 
-## Estrutura de arquivos
+## Funcionalidades
+
+- seção de apresentação profissional
+- lista de tecnologias estudadas
+- resumo dos projetos do portfólio
+- organização visual simples e responsiva
+
+## Estrutura do projeto
 
 ```text
 portfolio-html-css/
@@ -25,28 +30,20 @@ portfolio-html-css/
 
 ## Como executar
 
-1. Acesse a pasta `src/`.
-2. Abra o arquivo `index.html` no navegador.
+Abra o arquivo `src/index.html` no navegador.
 
-## Exemplo de uso
+## O que este projeto demonstra
 
-O projeto apresenta:
+- uso de HTML semântico
+- criação de layout com CSS
+- estruturação visual de um portfólio pessoal
+- preocupação com clareza de apresentação
 
-- Seção de apresentação profissional
-- Tecnologias estudadas
-- Resumo dos projetos do portfólio
-- Objetivo profissional e próximos passos
+## Próximos passos
 
-## Aprendizados desenvolvidos
+- incluir links para GitHub e LinkedIn
+- publicar no GitHub Pages
+- refinar responsividade em diferentes telas
+- adicionar pequenas melhorias visuais
 
-- Estrutura semântica de páginas HTML
-- Criação de layout responsivo com CSS
-- Organização visual para apresentação profissional
-- Construção de uma interface clara e objetiva
-
-## Melhorias futuras
-
-- Adicionar modo escuro
-- Incluir links para LinkedIn e GitHub
-- Publicar o projeto com GitHub Pages
-- Inserir animações leves de transição
+[Voltar ao README principal](../../README.md)

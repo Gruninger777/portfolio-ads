@@ -1,19 +1,24 @@
 # Sistema de Cadastro em C#
 
-## Descrição
+Aplicação de console para cadastro, listagem e remoção de usuários, com armazenamento em memória.
 
-Aplicação de console para gerenciar usuários com operações de cadastro, listagem e remoção, utilizando armazenamento em memória.
+## Objetivo
 
-## Objetivo do projeto
+Praticar estruturação de uma aplicação de console em C#, uso de listas, menu interativo e separação básica de responsabilidades.
 
-Praticar estruturação de uma aplicação de console em C#, uso de listas, organização de menu interativo e separação simples de responsabilidades.
-
-## Tecnologias utilizadas
+## Tecnologias
 
 - C#
 - .NET
 
-## Estrutura de arquivos
+## Funcionalidades
+
+- cadastrar usuários
+- listar usuários cadastrados
+- remover usuários
+- interagir por menu no terminal
+
+## Estrutura do projeto
 
 ```text
 sistema-cadastro-csharp/
@@ -26,9 +31,6 @@ sistema-cadastro-csharp/
 ```
 
 ## Como executar
-
-1. Acesse a pasta do projeto.
-2. Execute com o SDK do .NET instalado:
 
 ```bash
 dotnet run
@@ -46,16 +48,18 @@ Digite o nome do usuário: Ana
 Usuário adicionado com sucesso.
 ```
 
-## Aprendizados desenvolvidos
+## O que este projeto demonstra
 
-- Uso de `List<T>` para armazenar dados em memória
-- Construção de menus em aplicações de console
-- Separação básica entre modelo, serviço e fluxo principal
-- Validação simples de entrada do usuário
+- uso de `List<T>` para dados em memória
+- fluxo de aplicações de console
+- separação simples entre modelo, serviço e execução
+- tratamento básico de entrada do usuário
 
-## Melhorias futuras
+## Próximos passos
 
-- Adicionar persistência em arquivo ou banco de dados
-- Incluir busca por nome
-- Validar duplicidade de usuários
-- Criar testes automatizados
+- adicionar persistência em arquivo ou banco de dados
+- incluir busca por nome
+- validar duplicidade de usuários
+- criar testes automatizados
+
+[Voltar ao README principal](../../README.md)

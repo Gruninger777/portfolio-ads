@@ -1,18 +1,23 @@
 # Algoritmos e Estruturas em C
 
-## Descrição
+Coleção de exercícios em C com foco em lógica de programação, busca, ordenação e manipulação de arrays.
 
-Coleção de exercícios básicos de lógica e algoritmos em C, com exemplos de busca linear, ordenação simples e manipulação de arrays.
+## Objetivo
 
-## Objetivo do projeto
+Reforçar fundamentos de programação estruturada, raciocínio lógico e implementação de algoritmos básicos na linguagem C.
 
-Reforçar fundamentos de programação estruturada, raciocínio lógico e implementação de algoritmos clássicos em linguagem C.
-
-## Tecnologias utilizadas
+## Tecnologias
 
 - C
 
-## Estrutura de arquivos
+## Conteúdo praticado
+
+- manipulação de arrays
+- busca linear
+- ordenação simples
+- organização de funções em programas pequenos
+
+## Estrutura do projeto
 
 ```text
 algoritmos-estruturas-c/
@@ -25,7 +30,7 @@ algoritmos-estruturas-c/
 
 ## Como executar
 
-Compile e execute cada arquivo separadamente com um compilador C, como `gcc`.
+Compile e execute cada arquivo separadamente.
 
 Exemplo:
 
@@ -34,7 +39,7 @@ gcc src/busca_linear.c -o busca_linear
 ./busca_linear
 ```
 
-## Exemplo de uso
+## Exemplo de saída
 
 ```text
 Array analisado: 4 8 15 16 23 42
@@ -42,16 +47,17 @@ Valor procurado: 16
 Resultado: valor encontrado na posição 3
 ```
 
-## Aprendizados desenvolvidos
+## O que este projeto demonstra
 
-- Percorrer e manipular arrays
-- Implementar busca linear
-- Aplicar ordenação por comparação
-- Trabalhar com funções em C
+- base em algoritmos clássicos
+- leitura e manipulação de estruturas simples
+- clareza na implementação de exercícios fundamentais
 
-## Melhorias futuras
+## Próximos passos
 
-- Adicionar busca binária
-- Incluir ordenação mais eficiente
-- Separar utilitários em arquivos de cabeçalho
-- Criar menu único para executar os exemplos
+- adicionar busca binária
+- incluir algoritmos de ordenação mais completos
+- separar utilitários em arquivos de cabeçalho
+- criar um menu único para executar os exemplos
+
+[Voltar ao README principal](../../README.md)
