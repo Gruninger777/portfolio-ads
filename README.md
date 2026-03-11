@@ -1,74 +1,185 @@
-# Portfólio de Projetos - ADS
+# 💻 Portfólio de Projetos — Análise e Desenvolvimento de Sistemas
 
-Repositório com projetos acadêmicos e práticos desenvolvidos durante minha formação em Análise e Desenvolvimento de Sistemas. A proposta deste portfólio é apresentar evolução técnica, organização de código e aplicação de fundamentos em diferentes linguagens.
+Olá! 👋  
+Sou estudante de **Análise e Desenvolvimento de Sistemas (ADS)** com foco em desenvolvimento de software, backend e análise de dados.
 
-## Visão geral
+Este repositório reúne alguns projetos simples desenvolvidos com o objetivo de praticar fundamentos de programação, organização de código e construção de soluções estruturadas.
 
-Aqui reuni projetos simples e objetivos com foco em:
+O objetivo deste portfólio é demonstrar evolução técnica, clareza de raciocínio e boas práticas de organização de projetos.
+
+---
+
+# 🎯 Objetivo Profissional
+
+Atualmente estou em busca de uma **oportunidade de estágio em desenvolvimento de software**, preferencialmente nas áreas de:
+
+- Backend
+- Desenvolvimento de sistemas
+- Engenharia de software
+- Análise de dados
+
+Tenho grande interesse em aprender, evoluir tecnicamente e contribuir com equipes de desenvolvimento.
+
+---
+
+# 🛠 Tecnologias
+
+Durante meus estudos tenho praticado com as seguintes tecnologias:
+
+- **C#**
+- **Java**
+- **Python**
+- **Go**
+- **C**
+- **HTML**
+- **CSS**
+- **SQL**
+
+Além disso, estudo constantemente conceitos fundamentais como:
 
 - lógica de programação
-- backend e APIs
-- análise de dados
-- organização de aplicações de console
-- estruturação de interfaces web
+- estruturas de dados
+- organização de projetos
+- boas práticas de desenvolvimento
 
-## Objetivo profissional
+---
 
-Busco oportunidade de estágio em desenvolvimento de software, com interesse principal em backend, APIs, lógica de programação e dados. Este portfólio foi organizado para demonstrar base técnica, clareza na implementação e comprometimento com aprendizado contínuo.
+# 📂 Projetos do Portfólio
 
-## Tecnologias
+Abaixo estão alguns projetos desenvolvidos para estudo e prática.
 
-### Linguagens
+## 1️⃣ Sistema de Cadastro — C#
 
-- C
-- C#
-- Go
-- Java
-- Python
-- HTML
-- CSS
-- SQL
+📁 `projects/sistema-cadastro-csharp`
 
-### Conceitos e ferramentas praticados
+Aplicação de console que simula um sistema simples de cadastro de usuários.
 
-- aplicações de console
-- APIs REST
-- manipulação de arquivos CSV
-- estruturas de dados básicas
-- organização de projetos por camadas simples
-- versionamento com Git e publicação no GitHub
+Funcionalidades:
 
-## Projetos
+- adicionar usuários
+- listar usuários cadastrados
+- remover usuários
 
-| Projeto | Tecnologias | Descrição | Link |
-| --- | --- | --- | --- |
-| Sistema de Cadastro | C#, .NET | Aplicação de console para cadastro, listagem e remoção de usuários em memória. | [Abrir projeto](./projects/sistema-cadastro-csharp/README.md) |
-| Sistema de Biblioteca | Java | Aplicação de console para gerenciar livros com cadastro, listagem e remoção. | [Abrir projeto](./projects/sistema-biblioteca-java/README.md) |
-| Análise de Dados | Python, pandas | Projeto introdutório com leitura de CSV, estatísticas simples e agrupamentos. | [Abrir projeto](./projects/analise-dados-python/README.md) |
-| API de Clientes | Go | API REST simples com rotas de listagem e cadastro de clientes em memória. | [Abrir projeto](./projects/api-clientes-golang/README.md) |
-| API de Pedidos | Python, Flask, SQLite | API simples para cadastro, busca, listagem e remoção de pedidos com persistência local. | [Abrir projeto](./projects/api-pedidos-python-sql/README.md) |
-| Portfólio Estático | HTML, CSS | Página web responsiva com apresentação profissional e resumo dos projetos. | [Abrir projeto](./projects/portfolio-html-css/README.md) |
-| Algoritmos e Estruturas | C | Exercícios de busca, ordenação e manipulação de arrays para reforço de fundamentos. | [Abrir projeto](./projects/algoritmos-estruturas-c/README.md) |
+Conceitos praticados:
 
-## Aprendizado contínuo
+- estruturas de dados em memória
+- organização de código
+- menus em aplicações de console
 
-Este repositório continua em evolução. Os próximos passos de estudo incluem:
+---
 
-- melhorar validações e organização interna dos projetos
-- adicionar persistência de dados em aplicações de console
-- aprofundar testes automatizados
-- evoluir projetos backend com mais rotas e melhor estrutura
-- expandir projetos de dados com visualizações e análises mais completas
+## 2️⃣ Sistema de Biblioteca — Java
 
-## Organização do repositório
+📁 `projects/sistema-biblioteca-java`
 
-```text
-projects/
-├── algoritmos-estruturas-c
-├── analise-dados-python
-├── api-clientes-golang
-├── api-pedidos-python-sql
-├── portfolio-html-css
-├── sistema-biblioteca-java
-└── sistema-cadastro-csharp
-```
+Aplicação simples de console para gerenciamento de livros.
+
+Funcionalidades:
+
+- cadastrar livro
+- listar livros
+- remover livro
+
+Conceitos praticados:
+
+- uso de `ArrayList`
+- organização de classes
+- manipulação de dados em memória
+
+---
+
+## 3️⃣ Análise de Dados com Python
+
+📁 `projects/analise-dados-python`
+
+Projeto simples de análise de dados utilizando **Python e Pandas**.
+
+Funcionalidades:
+
+- carregamento de dados via CSV
+- agrupamento de dados
+- geração de estatísticas básicas
+
+Conceitos praticados:
+
+- manipulação de dados
+- análise exploratória
+- bibliotecas de análise em Python
+
+---
+
+## 4️⃣ API REST de Clientes — Go
+
+📁 `projects/api-clientes-golang`
+
+API simples desenvolvida em **Go**, utilizando o pacote padrão `net/http`.
+
+Funcionalidades:
+
+- listar clientes
+- adicionar clientes
+
+Conceitos praticados:
+
+- criação de APIs
+- manipulação de JSON
+- rotas HTTP
+
+---
+
+## 5️⃣ Página de Portfólio — HTML e CSS
+
+📁 `projects/portfolio-html-css`
+
+Página estática simples apresentando:
+
+- perfil profissional
+- tecnologias utilizadas
+- projetos desenvolvidos
+
+Conceitos praticados:
+
+- estrutura HTML
+- estilização com CSS
+- organização de layout
+
+---
+
+## 6️⃣ Algoritmos e Estruturas em C
+
+📁 `projects/algoritmos-estruturas-c`
+
+Coleção de exercícios focados em fundamentos da programação.
+
+Algoritmos incluídos:
+
+- busca linear
+- ordenação simples
+- manipulação de arrays
+
+Conceitos praticados:
+
+- lógica de programação
+- manipulação de memória
+- resolução de problemas algorítmicos
+
+---
+
+# 📚 Aprendizado Contínuo
+
+Este repositório será atualizado conforme novos projetos e estudos forem sendo desenvolvidos.
+
+Meu objetivo é evoluir constantemente como desenvolvedor, aprimorando tanto conhecimentos técnicos quanto boas práticas de desenvolvimento.
+
+---
+
+# 📬 Contato
+
+Caso queira conversar sobre tecnologia, projetos ou oportunidades:
+
+GitHub:  
+https://github.com/Gruninger777/portfolio-ads
+
+---
+
+⭐ Obrigado por visitar meu portfólio!
