@@ -46,6 +46,7 @@ Busco oportunidade de estágio em desenvolvimento de software, com interesse pri
 | Sistema de Biblioteca | Java | Aplicação de console para gerenciar livros com cadastro, listagem e remoção. | [Abrir projeto](./projects/sistema-biblioteca-java/README.md) |
 | Análise de Dados | Python, pandas | Projeto introdutório com leitura de CSV, estatísticas simples e agrupamentos. | [Abrir projeto](./projects/analise-dados-python/README.md) |
 | API de Clientes | Go | API REST simples com rotas de listagem e cadastro de clientes em memória. | [Abrir projeto](./projects/api-clientes-golang/README.md) |
+| API de Pedidos | Python, Flask, SQLite | API simples para cadastro, busca, listagem e remoção de pedidos com persistência local. | [Abrir projeto](./projects/api-pedidos-python-sql/README.md) |
 | Portfólio Estático | HTML, CSS | Página web responsiva com apresentação profissional e resumo dos projetos. | [Abrir projeto](./projects/portfolio-html-css/README.md) |
 | Algoritmos e Estruturas | C | Exercícios de busca, ordenação e manipulação de arrays para reforço de fundamentos. | [Abrir projeto](./projects/algoritmos-estruturas-c/README.md) |
 
@@ -66,6 +67,7 @@ projects/
 ├── algoritmos-estruturas-c
 ├── analise-dados-python
 ├── api-clientes-golang
+├── api-pedidos-python-sql
 ├── portfolio-html-css
 ├── sistema-biblioteca-java
 └── sistema-cadastro-csharp
