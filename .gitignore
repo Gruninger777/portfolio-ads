@@ -1,0 +1,9 @@
+# Build e dependências
+bin/
+obj/
+out/
+__pycache__/
+*.pyc
+
+# Ambiente local
+.DS_Store
